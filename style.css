@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('img2.jpg');
+    background-size: cover;
+    background-position: center; */
+    background: linear-gradient(rgb(178 134 83), white);
+}
+
+
+#hero .navbar-brand,
+.nav-item {
+    font-family: 'Cinzel', serif;
+}
+
+#hero .navbar-brand,
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+#hero .banner {
+    /* margin-left: 127px; */
+    margin-top: 110px;
+}
+
+#hero .banner {
+    /* margin-left: 127px; */
+    margin-right: 10px;
+}
+
+#hero .banner .titre {
+    margin-top: 130px;
+}
+
+#hero h1 {
+    font-weight: 100;
+    font-size: 50px;
+
+    /* font-family: 'Playfair Display', serif; */
+
+    font-family: 'Cinzel', serif;
+    color: rgb(39, 17, 2);
+    /* margin-right: 730px; */
+}
+
+#hero h6 {
+    font-weight: 100;
+    font-size: 20px;
+
+    /* font-family: 'PT Serif', serif; */
+
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+#hero button {
+    background-color: rgb(39, 17, 2);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+#nous {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 85px;
+}
+
+#nous img {
+    margin-left: 60px;
+}
+
+#nous .pr-nous {
+    background-color: white;
+    border: 1px solid WHite;
+    /* height: 300px; */
+    box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
+    margin-top: 100px;
+    margin-left: 433px;
+    z-index: 1;
+    position: absolute;
+    width: 580px;
+}
+
+
+#nous h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#nous p {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+#milieu .cover {
+    background-image: url('img16.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* opacity: 0.6; */
+    margin-bottom: 100px;
+    height: 400px;
+    /* position: relative; */
+    /* z-index: -1; */
+}
+
+#milieu .cover .content {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#milieu .cover .content button {
+    background-color: rgb(178 134 83);
+    border-color: rgb(178 134 83);
+}
+
+#vitrine {
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+#vitrine .r1 .sous-titre {
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    z-index: 1;
+    margin-top: -20px;
+    margin-left: 16px;
+    box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
+    padding-right: 30px;
+    /* padding-right: 30px; */
+    padding-top: 20px;
+}
+
+#vitrine .r2 .sous-titre {
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    z-index: 1;
+    margin-top: -51px;
+    margin-left: 16px;
+    box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
+    padding-right: 30px;
+    /* padding-right: 30px; */
+    padding-top: 20px;
+}
+
+#vitrine .sous-titre h6 {
+    margin-left: 57px;
+}
+
+#vitrine .sous-titre p {
+    margin-left: 40px;
+}
+
+#vitrine .miel {
+    margin-right: 130px;
+}
+
+#vitrine .p1 img {
+    width: 200px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+#vitrine .p2 img {
+    width: 200px;
+    height: 270px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(178 134 83);
+}
+
+footer .social-media {
+    /* margin-bottom: 50px; */
+    margin-left: 417px;
+}
+
+footer .social-media i {
+    /* margin-bottom: 50px; */
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+footer form {
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+footer form button {
+    background-color: rgb(39, 17, 2) !important;
+    color: white !important;
+}
+
+/* #p2 {
+    background-image: url(img17.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+#onssa {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#onssa video {
+    width: 550px;
+}
